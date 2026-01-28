@@ -1,0 +1,6 @@
+venv/
+faceenv/
+__pycache__/
+*.pkl
+*.csv
+.vscode/
