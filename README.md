@@ -25,13 +25,17 @@ This project is a real-time **face recognition–based attendance system** devel
 
 
 ## Project Structure
-face-attendance/
+## Project Structure
+```
+face-attendance-system/
 │
 ├── register.py          # Face registration using webcam
 ├── attendance.py        # Face recognition & attendance marking
 ├── spoof_check.py       # Basic anti-spoof (liveness) detection
 ├── README.md            # Project documentation
+├── .gitignore           # Git ignore rules
 │
 └── data/
-    ├── encodings.pkl    # Stored face encodings (generated after registration)
+    ├── encodings.pkl    # Stored face encodings (generated)
     └── attendance.csv   # Attendance records (auto-generated)
+```
